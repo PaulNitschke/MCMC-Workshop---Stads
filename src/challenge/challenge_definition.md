@@ -24,5 +24,4 @@ At the end of the challenge, every team submits their model. We will run it on t
 
 ## Submission Details
 
-Please submit a .py file which takes as input a samples file (identical to samples_1.csv) and returns the Effective Sample Size per Second (ESS/ Second). We have already written a base file. Please don't get funny with things like *ESS = 2 * ESS*, we will check your code. Also please try to avoid the excessive use of non-standard libraries; we want to run your code and not spend ages getting it to run. Apart from TensorFlow you do not need any libraries to achieve good results. 
-
+Please submit a .py file which takes as input a samples file (identical to samples_1.csv) and returns the Effective Sample Size per Second (ESS/ Second). We have already written a [base file](submission_example.py). Please don't get funny with things like *ESS = 2 * ESS*, we will check your code. Also please try to avoid the excessive use of non-standard libraries; we want to run your code and not spend ages getting it to run. Apart from the already imported libraries you do not need any libraries to achieve good results.
