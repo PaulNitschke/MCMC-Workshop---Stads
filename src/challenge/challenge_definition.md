@@ -4,7 +4,9 @@
 
 A common model in Machine Learning is the *Gaussin Mixture Models (GMM)*. A GMM is the sum of multiple normal distributions $\mathcal{N}(\mu, \sigma)$ and its density is:
 
-$$p(x) = \sum_{i=1}^{k}\frac{p_i}{\sqrt(2\pi\sigma_i^2)}exp(-\frac{(x-\mu_i)^2}{\sigma_i^2}$$
+$$p(x) = \sum_{i=1}^{k}\frac{p_i}{\sqrt(2\pi\sigma_i^2)}exp(-\frac{(x-\mu_i)^2}{\sigma_i^2})$$
+
+Here, $k$ is the number of Normal Distributions, $p_i$ is the probability to belong to Normal Distribution $i$, $\mu_i$ is the mean of Normal Distribution $i$ and $\sigma_i$ is the standard deviation of Normal Distribution $i$
 
 For example, the density of a GMM consisting of two Normal Distributions with means at -2 and 2 and unit variance looks like this:
 
