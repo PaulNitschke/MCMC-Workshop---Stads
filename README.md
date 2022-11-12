@@ -6,6 +6,8 @@
 </p>
 
 
+
+
 ### 1. Worum gehts?
 Markov Chain Monte Carlo (MCMC) beschreibt eine Reihe von Algorithmen mit denen zufällige Zahlen erzeugt werden können. MCMC hat vielfältige Anwendungen:
 1. Bayesianische Modellierung
@@ -18,9 +20,9 @@ MCMC wird in Mannheim allerdings nicht unterrichtet. In diesem Workshop wollen w
 ### 2. Wie ist der Workshop aufgebaut?
 1.  Vortrag, etwa eine Stunde
 2.  Kurze Pause, etwa 15 Minuten
-3.  Data Science Challenge, etwa 1,5 Stunden, ihr werdet in kleine Teams eingeteilt und löst eine Challenge, das beste Team gewinnt einen Preis
+3.  Programmier Challenge, etwa 1,5 Stunden, ihr werdet in kleine Teams eingeteilt und löst eine Challenge, das beste Team gewinnt einen Preis
 
-### 3. Warum sollte ich teilnehmen?
+### 3. Warum soll ich teilnehmen?
 1. Relevanz: MCMC kommt sehr häufig vor, es wird selten unterrichtet.
 2. High-Performance: in dem Workshop lernt ihr State of the Art (SOTA) Algorithmen, die ihr so auch in eurem nächsten Projekt benutzen könnt.
 3. Effektivität: Workshop dauert nicht lange.
@@ -30,4 +32,3 @@ MCMC wird in Mannheim allerdings nicht unterrichtet. In diesem Workshop wollen w
 ### 4. Vorkenntnisse
 1. Elementare Python Kenntnisse
 2. Keine TensorFlow Kenntnisse sind notwendig
-

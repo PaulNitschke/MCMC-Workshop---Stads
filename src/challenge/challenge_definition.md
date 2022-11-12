@@ -6,7 +6,7 @@ A common model in Machine Learning is the *Gaussin Mixture Models (GMM)*. A GMM 
 
 $$p(x) = \sum_{i=1}^{k}\frac{p_i}{\sqrt(2\pi\sigma_i^2)}exp(-\frac{(x-\mu_i)^2}{\sigma_i^2})$$
 
-Here, $k$ is the number of Normal Distributions, $p_i$ is the probability to belong to Normal Distribution $i$, $\mu_i$ is the mean of Normal Distribution $i$ and $\sigma_i$ is the standard deviation of Normal Distribution $i$
+Here, $k$ is the number of Normal Distributions, $p_i$ is the probability to belong to Normal Distribution $i$, $\mu_i$ is the mean of Normal Distribution $i$ and $\sigma_i$ is the standard deviation of Normal Distribution $i$. For the rest of this workshop we set $p_i = \frac{1}{k}$.
 
 For example, the density of a GMM consisting of two Normal Distributions with means at -2 and 2 and unit variance looks like this:
 
@@ -14,7 +14,7 @@ For example, the density of a GMM consisting of two Normal Distributions with me
 
 ## Challenge Definition
 
-We have generated samples from a two-dimensional GMM (saved in samples_1.csv). Your task will be to estimate the respective means and standard deviations of the distributions using Markov Chain Monte Carlo.
+We have generated samples from a two-dimensional GMM (saved in samples_1.csv). Your task will be to estimate the respective means and standard deviations of the distributions using Markov Chain Monte Carlo. Make sure to first install all requirements in the [requirements file](requirements.txt).
 
 ## Getting Started
 
