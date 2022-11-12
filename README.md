@@ -5,7 +5,7 @@
 <img src="src/visualizations/monte_carlo_pi.gif" width="175" height="175"/>
 </p>
 
-
+y
 
 
 ### 1. Worum gehts?

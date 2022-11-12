@@ -14,7 +14,7 @@ For example, the density of a GMM consisting of two Normal Distributions with me
 
 ## Challenge Definition
 
-We have generated samples from a two-dimensional GMM (saved in samples_1.csv). Your task will be to estimate the respective means and standard deviations of the distributions using Markov Chain Monte Carlo. Make sure to first install all requirements in the [requirements file](requirements.txt).
+We have generated samples from a two-dimensional GMM (saved in samples_1.csv). Your task will be to estimate the respective means and standard deviations of the distributions using Markov Chain Monte Carlo. Make sure to first install all dependencies from the [requirements file](requirements.txt).
 
 ## Getting Started
 
