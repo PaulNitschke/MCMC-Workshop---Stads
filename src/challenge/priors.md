@@ -19,7 +19,7 @@ The $\propto$ means *proportional to*. In our formulation we see the data x as f
 
 <br/><br/>
 
-So now we have the following formulation: $\mathbb{P}(\mu_i, \sigma_i | x) \mathbb{P}(\mu_i, \sigma_i)$. We now assume a distribution on the unknown parameters $\mu$ and $\sigma$. We assume that $\mu \sim \mathcal{N}(0, 10)$, $\sigma \sim \Gamma(1, 1)$ annd $\mu$ and $\sigma$ independent (Sanity check: why did we pick these two distributions?). 
+So now we have the following formulation: $\mathbb{P}(x | \mu_i, \sigma_i) \propto \mathbb{P}(\mu_i, \sigma_i | x) \mathbb{P}(\mu_i, \sigma_i)$. We now assume a distribution on the unknown parameters $\mu$ and $\sigma$. We assume that $\mu \sim \mathcal{N}(0, 10)$, $\sigma \sim \Gamma(1, 1)$ annd $\mu$ and $\sigma$ independent (Sanity check: why did we pick these two distributions?). 
 
 <br/><br/>
 
