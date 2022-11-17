@@ -10,18 +10,18 @@ Here, $k$ is the number of Normal Distributions, $p_i$ is the probability to bel
 
 For example, the density of a GMM consisting of two Normal Distributions with means at $-2$ and $2$ and unit variance looks like this:
 
-![GMM](visualizations/gmm_example.png "Title")
+![GMM](src/gmm_example.png "Title")
 
 ## Challenge Definition
 
 We have generated samples from a two-dimensional GMM (saved in [samples_1.csv](samples_1.csv)). Their empirical density looks like this:
-![samples_1](visualizations/samples_1.png "Title").
+![samples_1](src/samples_1.png "Title").
 
  Your task will be to estimate the respective means and standard deviations of the Normal Distributions using Markov Chain Monte Carlo. Make sure to first install all dependencies from the [requirements file](requirements.txt). 
 
 ## Getting Started
 
-We have defined a baseline [model](run_me.ipynb) to help you get started. This model should run on your computer without any changes. Your task will be to improve the existing model. You can also find some hints in the notebook but feel free to change whatever you want as long as you stick to MCMC. Please make sure to first read the *entire* notebook before you start implementing your own ideas.
+We have defined a baseline [model](run_me.ipynb) to help you get started. This model should run on your computer without any changes. Please let us know if it doesn't so we can help you get started. Your task is to improve the existing model. You can also find some hints in the notebook but feel free to change whatever you want as long as you stick to MCMC. Please make sure to first read the *entire* notebook before you start implementing your own ideas.
 
 ## Evaluation
 
@@ -29,12 +29,12 @@ At the end of the challenge, every team submits their model. We will run it on t
 
 ## Submission Details
 
-Please submit a notebook similar to run_me.ipynb which returns the Effective Sample Size per Second (ESS/ Second). Please don't get funny with things like *ESS = 2 * ESS*, we will check your code. Also please try to avoid the excessive use of non-standard libraries; we want to run your code and not spend ages getting it to run. Apart from the already imported libraries you do not need any other libraries to achieve good results.
+Please submit a notebook similar to run_me.ipynb which returns the Effective Sample Size per Second (ESS/ Second). Please don't get funny with things like *ESS = 2 * ESS*, we will check your code. Also please try to avoid the excessive use of non-standard libraries: We want to run your code and not spend ages getting it to run. Apart from the already imported libraries you do not need any other libraries to achieve good results.
 
 ## Final Remarks
 
 <p align="center">
-<img src="visualizations/why_so_easy.jpg" alt="drawing" width="300"/>
+<img src="src/why_so_easy.jpg" alt="drawing" width="300"/>
 </p>
 
 Our requirements for the challenge were twofold:
