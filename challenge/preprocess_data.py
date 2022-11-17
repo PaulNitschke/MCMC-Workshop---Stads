@@ -18,6 +18,7 @@ def generate_data(num_samples:int = 50, num_modes:int = 2, mu:list = [-2, 2], si
     - a numpy array of the samples
     - if name, saves the numpy array to a csv
     '''
+    
     np.random.seed(420)
     samples = np.zeros(num_samples)
 

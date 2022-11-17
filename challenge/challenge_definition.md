@@ -10,7 +10,7 @@ Here, $k$ is the number of Normal Distributions, $p_i$ is the probability to bel
 
 For example, the density of a GMM consisting of two Normal Distributions with means at -2 and 2 and unit variance looks like this:
 
-![GMM](gmm_example.png "Title")
+![GMM](visualizations/gmm_example.png "Title")
 
 ## Challenge Definition
 
@@ -31,7 +31,7 @@ Please submit a .py file which takes as input a samples file (identical to sampl
 ## Final Remarks
 
 <p align="center">
-<img src="why_so_easy.jpg" alt="drawing" width="300"/>
+<img src="visualizations/why_so_easy.jpg" alt="drawing" width="300"/>
 </p>
 
 Our requirements for the challenge were twofold:
