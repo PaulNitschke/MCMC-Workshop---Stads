@@ -1,0 +1,6 @@
+tensorflow>=2.9.1
+tensorflow-probability>=0.17.0
+pandas>=1.5.1
+numpy>=1.22.1
+matplotlib>=3.5.2
+
