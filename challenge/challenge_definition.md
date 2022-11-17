@@ -2,27 +2,30 @@
 
 ## Gaussian Mixture Model
 
-A common model in Machine Learning is the *Gaussin Mixture Models (GMM)*. A GMM is the sum of multiple normal distributions $\mathcal{N}(\mu, \sigma)$ and its density is:
+A common model in Machine Learning is the *Gaussin Mixture Models (GMM)*. A GMM is the sum of multiple normal distributions $\mathcal{N_i}(\mu_i, \sigma_i)$. Its density is:
 
 $$p(x) = \sum_{i=1}^{k}\frac{p_i}{\sqrt(2\pi\sigma_i^2)}exp(-\frac{(x-\mu_i)^2}{\sigma_i^2})$$
 
 Here, $k$ is the number of Normal Distributions, $p_i$ is the probability to belong to Normal Distribution $i$, $\mu_i$ is the mean of Normal Distribution $i$ and $\sigma_i$ is the standard deviation of Normal Distribution $i$. For the rest of this workshop we set $p_i = \frac{1}{k}$.
 
-For example, the density of a GMM consisting of two Normal Distributions with means at -2 and 2 and unit variance looks like this:
+For example, the density of a GMM consisting of two Normal Distributions with means at $-2$ and $2$ and unit variance looks like this:
 
 ![GMM](visualizations/gmm_example.png "Title")
 
 ## Challenge Definition
 
-We have generated samples from a two-dimensional GMM (saved in samples_1.csv). Your task will be to estimate the respective means and standard deviations of the distributions using Markov Chain Monte Carlo. Make sure to first install all dependencies from the [requirements file](requirements.txt).
+We have generated samples from a two-dimensional GMM (saved in [samples_1.csv](samples_1.csv)). Their empirical density looks like this:
+![samples_1](visualizations/samples_1.png "Title").
+
+ Your task will be to estimate the respective means and standard deviations of the Normal Distributions using Markov Chain Monte Carlo. Make sure to first install all dependencies from the [requirements file](requirements.txt). 
 
 ## Getting Started
 
-We have defined a baseline [model](run_me.ipynb) to help you get started. This model should run on your computer without any changes. Your task will be to improve the existing model. You can also find some hints in the notebook but feel free to change whatever you want as long as you stick to MCMC.
+We have defined a baseline [model](run_me.ipynb) to help you get started. This model should run on your computer without any changes. Your task will be to improve the existing model. You can also find some hints in the notebook but feel free to change whatever you want as long as you stick to MCMC. Please make sure to first read the *entire* notebook before you start implementing your own ideas.
 
 ## Evaluation
 
-At the end of the challenge, every team submits their model. We will run it on the same computer (so that each team has the same hardware performance). Whichever team has the highest Effective Sample Size per Second wins. Please be aware that we run the model on data from another GMM so don't hardcode anything! For simplicity you may assume that we sample from a two dimensional GMM.
+At the end of the challenge, every team submits their model. We will run it on the same computer (so that each team has the same hardware performance). Whichever team has the highest Effective Sample Size per Second wins. Please be aware that we run the model on data from another GMM so don't hardcode anything! For simplicity you may assume that we sample from a GMM consisting of two Normal Distributions (so the same as right now).
 
 ## Submission Details
 
